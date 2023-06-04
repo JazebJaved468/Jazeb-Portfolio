@@ -81,10 +81,11 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .like-btn button{
+    height: 7vh;
     font-size: 1.1em;
     background-color: #22dee1;
     color: white;
@@ -101,11 +102,12 @@ ul li a:hover{
 }
 
 .like-btn button img{
-    width: 27%;
+   align-items: flex-start;
+    width: 20px;
 }
 
 .like-btn button:hover{
-    background-color:#13ecf0;
+    background-color:#13c0c3;
     transform: scale(1.15);
 }
 /* Header Ends*/
